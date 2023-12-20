@@ -1,5 +1,5 @@
 - name: Create jenkins Jobs
   ansible.builtin.include_tasks:
     file: job.yml
-  loop: jobs
+  loop: "{{jobs}}"
 
