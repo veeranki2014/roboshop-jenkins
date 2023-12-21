@@ -4,6 +4,6 @@
   vars:
     jobs:
       - roboshop_terraform
-      - ank-testing
+      - cart
   roles:
     - jenkins-jobs
