@@ -9,5 +9,6 @@
       - frontend
       - shipping
       - payment
+      - user
   roles:
     - jenkins-jobs
