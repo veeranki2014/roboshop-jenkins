@@ -2,7 +2,7 @@
 - name: Create Multi-Branch Template
   ansible.builtin.template:
     src: mbranch.xml
-    dest: /tmp/sbranch.xml
+    dest: /tmp/mbranch.xml
 
 - name: Create a Multi Branch Jenkins job using basic authentication
   community.general.jenkins_job:
