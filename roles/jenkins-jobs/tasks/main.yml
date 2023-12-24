@@ -1,5 +1,10 @@
-- name: Create jenkins Jobs
+- name: Single brach jenkins Jobs
   ansible.builtin.include_tasks:
     file: job.yml
-  loop: "{{jobs}}"
+  loop: "{{sp_jobs}}"
+
+- name: Multi Branch jenkins Jobs
+  ansible.builtin.include_tasks:
+    file: job.yml
+  loop: "{{mp_jobs}}"
 
